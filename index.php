@@ -18,11 +18,11 @@
 			<?php include('encabezado.php'); ?>
 		</div> <!--fin fila 1 -->
 
-		<div class='row' id="cabecera"><!--fila 2-->
-			<ul>
- 				<li><a href="iniciar.php">Acceder</a></li>
- 				<li><a href="nuevo_usu.php">Nuevo Usuario</a></li>
- 			</ul>
+		<div style="float:right;" class='col-xs-6' id="cabecera"><!--fila 2-->
+			
+ 				<a href="iniciar.php"><button class="col-xs-6 col-sm-6 btn btn-default">Acceder</button></a>
+ 				<a href="nuevo_usu.php"><button class="col-xs-6 col-sm-6 btn btn-default">Registrarse</button></a>
+ 				
 		</div><!-- fin fila 2-->
 
 		<div class='row '> <!--fila 3-->

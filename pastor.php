@@ -1,3 +1,11 @@
+ <?php 
+session_start();
+if (!isset($_SESSION['usuario'])) 
+{
+echo "<script>location.href='index.php'</script>";
+} else{
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,3 +74,7 @@
         <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+<?php
+
+}
+?>

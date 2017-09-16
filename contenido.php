@@ -1,4 +1,4 @@
-<div class="col-xs-12">
+<div class="col-xs-12 ">
 <center>
 	 <!-- use jssor.slider.debug.js instead for debug -->
 <div class="panel panel-default">

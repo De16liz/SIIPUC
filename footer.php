@@ -1,4 +1,4 @@
-<div class="col-xs-12" id="pie">
+<div class="col-xs-12 well" id="pie">
 	<p style="text-align: center;">
 		"Direccion:"
 		<br>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
 <link rel="shortcut icon" type="image/x-icon" href="img/logo-header.png">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,46 +21,47 @@
 		<center>
 		<div class="col-sm-3 ">
 		</div>
+			<div class="col-xs-12"><h1>Registro</h1></div>
 			
-			<h1>Registrarme</h1>
 				<div class="col-xs-12 col-sm-6 ">	
 				<form  action="nuevo.php" method="POST" autocomplete="off">
 							
 		
-							<div style="margin-bottom: 25px" class="input-group">
-								<label for="usuario" class="col-md-3 control-label"></label>
+							<div style="margin-bottom: 25px"  class="col-xs-12 input-group ">
+								
 								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-								<input type="text" class="form-control" name="nombres" placeholder="Digite su nombre" value="" required="">
+								<input type="text" class="form-control" name="nombres" placeholder="Digite Nombre" value="" required="">
 								
 							</div>
 
-							<div style="margin-bottom: 25px" class="input-group">
-								<label for="usuario" class="col-md-3 control-label"></label>
+							<div style="margin-bottom: 25px"  class="col-xs-12 input-group">
+								
 								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-									<input type="text" class="form-control" name="apellidos" placeholder="Digite sus Apellidos" value="" required="">
+									<input type="text" class="form-control" name="apellidos" placeholder="Digite Apellidos" value="" required="">
 								</div>
-							</div>
-
-							<div style="margin-bottom: 25px" class="input-group">
+				</div>			
+				<div class="col-xs-12 col-sm-6  ">	
+							<div style="margin-bottom: 25px" class="col-xs-12 input-group">
 					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-					<input id="usuario" type="text" class="form-control" name="usuario" value="" placeholder="digite su usuario" required>                                  
+					<input id="usuario" type="text" class="form-control" name="usuario" value="" placeholder="Usuario" required>                                  
 					</div>
 							
-							<div style="margin-bottom: 25px" class="input-group">
+							<div style="margin-bottom: 25px" class="col-xs-12 input-group">
 					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-					<input id="password" type="password" class="form-control" name="password" placeholder="ingrese su contraseña" required>
+					<input id="password" type="password" class="form-control" name="password" placeholder="Ingrese Contraseña" required>
 					</div>
-							
+				</div>
 							<div class="form-group">                                      
-								<div class="col-md-offset-3 col-md-9">
-									<button id="btn-signup" type="submit" class="btn btn-success"><i class="icon-hand-right"></i>Registrar</button> 
-								</div>
+								
+									<button id="btn-signup" type="submit" class="col-xs-12 btn btn-success"><i class="icon-hand-right"></i>Registrar</button> 
+								
 							</div>
 						</form>
-						<h4>volver al  <a href="index.php">Inicio</a></h4>
+						
 					</div>
 				
 				<div class="col-sm-3 ">
+					<h4>volver al  <a href="index.php">Inicio</a></h4>
 			</div>
 			</center>
 		</div> <!--fin fila 2-->

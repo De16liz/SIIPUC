@@ -1,11 +1,11 @@
-<!--<?php 
-/*session_start();
-if (!isset($_SESSION['nombres'])) 
+ <?php 
+session_start();
+if (!isset($_SESSION['usuario'])) 
 {
 echo "<script>location.href='index.php'</script>";
 } else{
-*/
-?>-->
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +44,7 @@ echo "<script>location.href='index.php'</script>";
          
 	</body>
 </html>	
-<!--<?php
- /*session_destroy();
-}*/
+<?php
+ 
+}
 ?>
