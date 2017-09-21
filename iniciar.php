@@ -1,26 +1,39 @@
+ <?php 
+session_start();
+if (isset($_SESSION['usuario'])) 
+{
+echo "<script>location.href='desktop.php'</script>";
+} else{
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="img/019.jpg">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<?php include('includes/headgo.php'); ?>
 		<title>SIIPUC</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/estilos.css">
 		<link rel="stylesheet"  href="css/fonts.css">
 		<script src="js/jssor.slider.min.js"></script>
 		
 </head>
 <body>
-	<div  class="container"> <!-- inicio contenedor-->
-		<div  class='row'><!-- fila 1-->
-			<?php include('encabezado.php'); ?>
-		</div> <!--fin fila 1 -->
-		<br><br>
-		<div class='row '> <!--fila 2-->
+	
+		
+			<?php include('includes/menu.php'); ?>
+			<main>
+		<article>
+
+			<div class='row '> <!--fila 2-->
 			<div class="col-sm-3 ">
 			</div>
-			<div class="col-xs-12 col-sm-6 ">		
+
+			<div class="col-xs-12 col-sm-6 ">	
+				<div class="col-xs-12 ">
+					
+					<center><h1>Iniciar Sesión</h1></center>	
+					<br>
+				</div>
 				<form  action="login.php" method="POST" autocomplete="off">
 						
 					<div style="margin-bottom: 25px" class="input-group">
@@ -46,7 +59,9 @@
 					</div> <br>
 					<div class="col-md-12 control">
 					<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
-					<a href="nuevo_usu.php">Registrate aquí</a><h4>Si no tienes una cuenta! .    volver al  <a href="index.php">Inicio</a></h4>
+					<a href="registro.php">Registrate aquí</a>
+					<br><br><br>
+					Volver al  <a href="index.php">Inicio</a>
 					</div>
 					</div>
 					</div>    
@@ -55,14 +70,26 @@
 			<div class="col-sm-3 ">
 			</div>
 
-		<div class='row'>
-			<?php include('footer.php'); ?>
-		</div>
+		<!-- <div class='row'>
+			<?php //include('footer.php'); ?>
+		</div> -->
 
 		</div> <!--fin container-->
+			
+			
+		</article>
+	</main>
+		<br><br>
 
-		<script src="js/jquerymin.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+		
 
+		<!-- <script src="js/jquerymin.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/headroom.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<?php 
+	}
+	?>
 </body>
 </html>

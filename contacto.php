@@ -8,17 +8,20 @@ echo "<script>location.href='desktop.php'</script>";
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<?php include('includes/headgo.php'); ?>
-	<title>Blog</title>
+<head> 
+		<?php include('includes/headgo.php'); ?>
+		<title>Contacto</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet"  href="css/fonts.css">
+		<script src="js/jssor.slider.min.js"></script>
+	
 </head>
-<body> 
-	
-	<?php include('includes/menu.php');  ?>
-	
+<body>
+			<?php include('includes/menu.php'); ?>
 	<main>
 		<article>
-			<h1>BLOG</h1>
+			<h1>CONTACTO</h1>
 			<hr>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -128,15 +131,11 @@ echo "<script>location.href='desktop.php'</script>";
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<br><br>
-			<center><p>Desarrollado por: Deimi Gomez</p></center>
 		</article>
 	</main>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/headroom.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
-	<?php 
-	}
-	?>
+	<?php } ?>
 </body>
 </html>
