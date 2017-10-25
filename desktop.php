@@ -25,12 +25,12 @@ echo "<script>location.href='index.php'</script>";
 	<div  class="container"> <!-- inicio contenedor-->
 		
 
-		<!-- <div class='row'><!fila 2-->
-			<!-- <?php //include('menu.php'); ?>
-		</div><! fin fila 2--> 
+		<div class='row'><!--fila 2-->
+			<?php include('includes/contenido.php'); ?>
+		</div><!-- fin fila 2-->
 
 		<div class='row '> <!--fila 3-->
-			<?php include('includes/contenido.php'); ?>
+			<?php include('includes/footer.php'); ?>
 		</div> <!--fin fila 3-->
 		
 
